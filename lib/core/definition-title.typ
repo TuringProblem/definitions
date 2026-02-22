@@ -13,7 +13,7 @@
   align(left)[#text(size:16pt)[#data.title_definition]]
 
   if hasExample {
-    align(center)[#block(fill: rgb(25, 25, 25, 20), inset: 24pt, width: 100%)[#text(fill: rgb("#6b7280"), size:16pt)[#example]]]
+    align(center)[#block(fill: rgb(25, 25, 25, 20), inset: 24pt, width: 100%, )[#text(fill: rgb("#6b7280"), size:16pt)[#example]]]
   }
 
   align(left)[#data.definition_content]
