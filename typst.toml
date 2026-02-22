@@ -1,0 +1,12 @@
+[project]
+name = "definitions"
+version = "0.1.0"
+authors = ["Your Name"]
+
+[build]
+# Specify entry points for your documents
+entrypoints = ["logical/definitions.typ"]
+
+# Define custom module paths (optional)
+[dependencies]
+# You can add external Typst packages here when needed
