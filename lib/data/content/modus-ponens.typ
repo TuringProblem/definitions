@@ -9,7 +9,7 @@
  * @Since:  20260222 @ 21:02  
  **/   
 
-#let TRUE = apply(colors.green.dark, "true")
+#let TRUE = DarkGreen("true")
 
 #let MODUS_PONENS_CONTENT = [
 #align(center)[
@@ -17,7 +17,7 @@
   ]
 
   #BasicCard(height: 70%, data: [
-    Here is my understanding... essentially, with Modus Ponens - we assume the case where A implies B, i.e., "if 2+2 = 4, then 4 - 2 = 2". In this scenario, if we just assume B is #TRUE, then we don't need to worry about A becuase logically if B is #TRUE, then A #ApplyColor(colors.red.dark, "MUST") be #TRUE and here is the proof of that.
+    Here is my understanding... essentially, with Modus Ponens - we assume the case where A implies B, i.e., "if 2+2 = 4, then 4 - 2 = 2". In this scenario, if we just assume B is #TRUE, then we don't need to worry about A becuase logically if B is #TRUE, then A #DarkRed("MUST") be #TRUE and here is the proof of that.
 
     #emph[Proof:]
     #FromattedProof(

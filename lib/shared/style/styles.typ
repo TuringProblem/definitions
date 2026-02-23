@@ -29,8 +29,12 @@
   return text(fill: color, content)
 }
 
-#let ApplyColor(color_variant, content) = {
-  return apply(color_variant, content)
+#let DarkGreen(content) = {
+  return apply(colors.green.dark, content)
+}
+
+#let DarkRed(content) = {
+  return apply(colors.red.dark, content)
 }
 
 
