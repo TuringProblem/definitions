@@ -1,7 +1,8 @@
 #import "code-snippets/data.typ":* 
 #import "titles/titles.typ": *
-#import "content/modus-tolens.typ": *
-#import "content/modus-ponens.typ": *
+#import "content/modus-tollens/index.typ": *
+#import "content/modus-ponens/index.typ": *
+#import "content/hypothetical-syllogism/index.typ": *
 
 
 /**
@@ -12,14 +13,19 @@
 #let data = (
   definition_one: (
     title_text: TITLES.TITLE, 
-    title_definition: TITLES.MODUS_PONENS,
+    title_definition: TITLES.MP,
     example: MODUS_PONENS,
-    definition_content: MODUS_PONENS_CONTENT,
+    definition_content: MP_CONTENT,
   ),
   definition_two: (
-    title_definition: TITLES.MODUS_TOLENS,
-    example: MODUS_TOLENS,
-    definition_content: MODUS_TOLLENS_CONTENT,
+    title_definition: TITLES.MT,
+    example: MODUS_TOLLENS,
+    definition_content: MT_CONTENT,
+  ),
+  definition_three: (
+    title_definition: TITLES.HS,
+    example: EXAMPLE_HS,
+    definition_content: HS_CONTENT,
   )
 )
 

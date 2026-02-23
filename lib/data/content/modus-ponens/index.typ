@@ -1,9 +1,10 @@
-#import "../../core/card/basic-card.typ": *
-#import "../../shared/style/styles.typ": *
-#import "../../core/proof/formatted-proof.typ": *
-#import "../../shared/shared-values.typ": *
-#import "../../core/line/line.typ": *
-#import "proofs/modus-ponens.typ": *
+#import "../../../core/card/basic-card.typ": *
+#import "../../../shared/style/styles.typ": *
+#import "../../../core/proof/formatted-proof.typ": *
+#import "../../../shared/shared-values.typ": *
+#import "../../../core/line/line.typ": *
+#import "proof/modus-ponens.typ": *
+
 
 /**
  * @Author: { @Override }
@@ -12,7 +13,7 @@
 
 #let TRUE = DarkGreen("true")
 
-#let MODUS_PONENS_CONTENT = [
+#let MP_CONTENT = [
 #align(center)[ First click #link("https://en.wikipedia.org/wiki/Modus_ponens")[Modus Ponens] - to see the mathematical definition ]
 
   #BasicCard(height: 70%, data: [

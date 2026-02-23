@@ -1,14 +1,14 @@
-#import "../../core/card/basic-card.typ": *
-#import "../../core/proof/formatted-proof.typ": *
-#import "../../shared/shared-values.typ": *
-#import "proofs/modus-tollens.typ": *
+#import "../../../core/card/basic-card.typ": *
+#import "../../../core/proof/formatted-proof.typ": *
+#import "../../../shared/shared-values.typ": *
+#import "proof/modus-tollens.typ": *
 
 /**
  * @Author: { @Override }
  * @Since:  20260222 @ 22:21  
  **/
  
-#let MODUS_TOLLENS_CONTENT = [
+#let MT_CONTENT = [
       #align(center)[ First click #link("https://en.wikipedia.org/wiki/Modus_tollens")[Modus Tollens] - to see the mathematical definition ]
 
       #BasicCard(height: 45%, data: [
