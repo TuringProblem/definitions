@@ -6,6 +6,6 @@
   * @Since:  20260222 @  
   **/
 
-#set page(margin: 2em)
+#set page(margin: 1.5em)
 
 #data.values().map(d => definition(data: d)).join()
