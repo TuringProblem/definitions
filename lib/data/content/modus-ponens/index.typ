@@ -20,7 +20,7 @@
     Here is my understanding... essentially, with Modus Ponens - we assume the case where A implies B, i.e., "if 2+2 = 4, then 4 - 2 = 2". In this scenario, if we just assume B is #TRUE, then we don't need to worry about A becuase logically if B is #TRUE, then A #DarkRed("MUST") be #TRUE and here is the proof of that.
 
     #emph[Proof:]
-    #FromattedProof((MODUS_PONENS_PROOF))
+    #FormattedProof((MODUS_PONENS_PROOF))
 
     #table(columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr), inset: 10pt, table.header([#align(center)[A]], [#align(center)[#FALSE]], [#align(center)[B]], [#align(center)[#NOT B]], [#align(center)[#FALSE #OR A]], [#align(center)[A #OR #NOT B]]), 
       [#align(center)[T]], [#align(center)[F]], [#align(center)[T]], [#align(center)[F]], [#align(center)[T]], [#align(center)[T]],

@@ -8,3 +8,5 @@
 #let TRUTH = "⊤"
 #let FALSE = "⊥"
 #let THEREFORE = "∴"
+#let LESS_THAN_OR_EQUAL_TO = "≤"
+#let GREATER_THAN_OR_EQUAL_TO = "≥"

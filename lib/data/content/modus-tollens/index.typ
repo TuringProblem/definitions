@@ -17,7 +17,7 @@
         Here is the proof:
 
         #emph[Proof:]
-        #FromattedProof((MODUS_TOLLENS_PROOF))
+        #FormattedProof((MODUS_TOLLENS_PROOF))
       ])
 
 ]

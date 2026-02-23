@@ -17,7 +17,7 @@ n. {data[n]}
 use a map to iterate over the array and create the proof 
 and prefix each line with a number
 */
-#let FromattedProof(data) = {
+#let FormattedProof(data) = {
   let proof = data.map(d => box(fill: rgb(25, 25, 25, 20), inset: 10pt, width: 100%, )[ #IMPLIES #d ]).join()
 
   return proof
