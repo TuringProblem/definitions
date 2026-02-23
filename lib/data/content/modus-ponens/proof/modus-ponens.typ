@@ -1,5 +1,5 @@
-#import "../../../core/line/line.typ": *
-#import "../../../shared/shared-values.typ": *
+#import "../../../../core/line/line.typ": *
+#import "../../../../shared/shared-values.typ": *
 
 #let MODUS_PONENS_PROOF = (
   [
