@@ -19,7 +19,7 @@
   definition_two: (
     title_definition: TITLES.MODUS_TOLENS,
     example: MODUS_TOLENS,
-    definition_content: MODUS_TOLENS_CONTENT,
+    definition_content: MODUS_TOLLENS_CONTENT,
   )
 )
 
