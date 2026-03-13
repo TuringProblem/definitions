@@ -19,6 +19,7 @@
     "absorption": shell("Absorption Law"), // p v (p ^ q) => p | p ^ (p v q) => p
     "cp": shell("Contrapositive Law"), // p => q <=> !q => !p
     "bc": shell("Biconditional Law"), // p <=> q <=> (p => q) & (q => p) | p <=> q <=> (p ^ q) v (!p ^ !q)
+    "sub": shell("From Subroutine"),
   )
 
   return list.at(text)
